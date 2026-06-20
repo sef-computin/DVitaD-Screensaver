@@ -10,7 +10,7 @@
 #include <vita2d.h>
 
 /*
- * Symbol of the image.png file
+ * Symbol of the .png file, which would act as a mask. 
  */
 extern unsigned char _binary_res_mask_png_start;
 
@@ -40,7 +40,6 @@ unsigned char rndtable[256] = {
     120, 163, 236, 249
 };
 
-// '#ff0000', '#ff4000', '#ff8000', '#ffbf00', '#ffff00', '#bfff00', '#80ff00', '#40ff00', '#00ff00', '#00ff40', '#00ff80', '#00ffbf', '#00ffff', '#00bfff', '#0080ff', '#0040ff', '#0000ff', '#4000ff', '#8000ff', '#bf00ff', '#ff00ff', '#ff00bf', '#ff0080', '#ff0040', '#ff0000'
 int colors[COLORS_COUNT] = {
   0xffff0000, 0xffff4000, 0xffff8000, 0xffffbf00, 0xffffff00,
   0xffbfff00, 0xff80ff00, 0xff40ff00, 0xff00ff00, 0xff00ff40,
@@ -69,7 +68,7 @@ int main()
 	pvf = vita2d_load_default_pvf();
 
 	/*
-	 * Load the statically compiled image.png file.
+	 * Load the statically compiled mask.png file.
 	 */
 	image = vita2d_load_PNG_buffer(&_binary_res_mask_png_start);
 
