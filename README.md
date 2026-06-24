@@ -38,4 +38,5 @@ It uses Doom RNG table for choosing color.
     to send it to Vita directly
 
  4. **Install VPK**
+    
     You can install vpk through VitaShell or VPK manager of your preference.
