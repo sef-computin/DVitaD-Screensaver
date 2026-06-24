@@ -35,7 +35,7 @@ It uses Doom RNG table for choosing color.
     ```bash
     make vpksend
     ```    
-    to send it to Vita directly
+    to send it to Vita directly (make sure you set the correct IP address in the Makefile)
 
  4. **Install VPK**
     
