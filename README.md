@@ -4,7 +4,7 @@
 <img width="800" height="394" alt="dvitad" src="https://github.com/user-attachments/assets/34a47545-fd68-4acd-8e99-266a42d28027" />
 
 ## Overview
-This project uses vita2d library to draw DVD logo and coloring it.
+This project uses vita2d library to draw DVD logo and color it.
 It uses Doom RNG table for choosing color.
 
 ## Installation
